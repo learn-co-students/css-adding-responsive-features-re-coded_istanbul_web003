@@ -1,9 +1,4 @@
----
-language: css
-tags: css, responsive, layout, media queries
-type: code along
-resources: 0
----
+
 
 ## Code Along Exercise 7 ~ 34min
 
