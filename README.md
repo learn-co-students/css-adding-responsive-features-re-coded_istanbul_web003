@@ -5,3 +5,5 @@
 <p><a href="https://www.youtube.com/watch?v=qxxJhKd2VDE">Adding Responsive Features</a></p>.
 
 Fork and clone to follow along with the video!
+
+<a href='https://learn.co/lessons/adding-responsive-features' data-visibility='hidden'>View this lesson on Learn.co</a>
