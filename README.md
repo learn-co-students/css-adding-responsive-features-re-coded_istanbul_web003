@@ -6,4 +6,4 @@
 
 Fork and clone to follow along with the video!
 
-<a href='https://learn.co/lessons/adding-responsive-features' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/adding-responsive-features' title='Adding Responsive Features Codealong'>Adding Responsive Features Codealong</a> on Learn.co and start learning to code for free.</p>
