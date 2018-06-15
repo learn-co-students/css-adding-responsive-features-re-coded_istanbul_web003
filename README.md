@@ -1,17 +1,16 @@
-# Responsive Features Code-Along
-
+# Responsive Features 
 ## Problem Statement 
-In this lab we will practice adjusting existing HTML and CSS to include responsive media queries.
-- built as desktop down
-- use chrome inspector and make sure you have the device toolbar(screenshot turning it on)
+
+Open the `index.html` file in your web browser, and inspect it. Play around with resizing the window. Notice how as the window gets smaller, the website becomes increasingly unreadable? This is what we refer to as _desktop down_ design. In this case, our comp was built at full size, and it's up to you as a developer to pick appropriate break points and adjust the layout as necessary. Since we want our users to have the best experience at all sizes, and there is no one sizing standard in place for phones and tablets, working on a fully responsive design takes some trial and error on our part. 
+
+In this lab we will practice adjusting existing HTML and CSS to include responsive media queries. Make sure that you are inspecting your website, and don't forget to toggle on your [device
+toolbar](https://developers.google.com/web/tools/chrome-devtools/device-mode/emulate-mobile-viewports)!
 
 ## Objectives 
- - create a meta tag to handle viewport settings
- - create a new stylesheet for responsive designs
- - link new stylesheet to html
- ? add tags to other HTML pages
- - Create 
- - add media queries for specified breakpoints
+ - Create a meta tag to handle viewport settings
+ - Create a new stylesheet for responsive designs
+ - Link new stylesheet to html
+ - Add media queries and responsive styling for specified breakpoints
  
  
 ## Deliverables 
@@ -32,7 +31,19 @@ In this lab we will practice adjusting existing HTML and CSS to include responsi
     - Change the `#logo h2` font size to 2.2em
     - Adjust the top positioning on the `#social` selector to 72px
     - Change the `col-3 p` selector to have a column count of 2. _Hint: look at the `style.css` stylesheet and make sure you grab all three column-count attributes!_
+- **Add a breakpoint for 750px**
+  - Within this breakpoint:
+    - Set the font size of the `#navbar nav a` selector to 0.9em;
+    - Change the `.col-3 p` column count to 1
+    - For the `.col-1`, `.col-2`, and `.col-3` selectors, set the width to 100%, left margin to 0, and float to none
+    - Remove the right border by setting `.border-right` border property to 0
+    - Set the `#details div` height to auto
     
+**Bonus Challenge**
+Add a breakpoint for 700px. Within this breakpoint, we are going to hide all of the navigation links, and display the "hamburger menu" icon that is currently set to be hidden. We also want to hide the text saying "Exceptional Realty Group", leaving the icon visible. Third, we want to adjust the spacing on the logo and social selectors so they remain in line with each other. 
+
+## Conclusion 
+Whether development is mobile first or desktop down, creating responsive sites that look good at all resolutions can be an interesting and enjoyable challenge. Remember to use the device toolbar to help you check the user experience at all resolutions. Play around with lots of different layouts and arrangements until you find the one that makes the most sense for the user, and keep the accessible user in mind. The more you practice working with HTML and CSS together, the more comfortable you will become. 
 
 
 
