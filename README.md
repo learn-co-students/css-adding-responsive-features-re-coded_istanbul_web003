@@ -17,8 +17,7 @@ toolbar](https://developers.google.com/web/tools/chrome-devtools/device-mode/emu
 - **Add a meta viewport tag**: In `index.html`, add a meta tag to the `<head>` that contains the following: `name="viewport", content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"`
 - **Create a new stylesheet**: Create a new stylesheet in the `css` folder named `responsive.css`
 - **Link stylesheet to html**: Add a link to your new `responsive.css` stylesheet in `index.html`
-? add tags to other html pages
-- **Add breakpoint for smaller screens at 1108px**
+- **Add breakpoint for smaller screens at 1100px**
   - Add a breakpoint for 1108px in your `responsive.css` stylesheet
   - Within this breakpoint:
     - Set the width of the `.wrapper` class to 90%
@@ -48,5 +47,5 @@ Whether development is mobile first or desktop down, creating responsive sites t
 
 
 ## Resources
-![Adding Responsive Features Video](//www.youtube.com/embed/qxxJhKd2VDE?rel=0&controls=1&showinfo=1)
+[Adding Responsive Features Video](//www.youtube.com/embed/qxxJhKd2VDE?rel=0&controls=1&showinfo=1)
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/adding-responsive-features' title='Responsive Features Code-Along'>Responsive Features Code-Along</a> on Learn.co and start learning to code for free.</p>
